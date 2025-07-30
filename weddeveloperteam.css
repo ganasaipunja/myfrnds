@@ -6,7 +6,7 @@ body{
     width: fit-content;
     height: fit-content;
     background-color:blanchedalmond;
-    animation: card 3s infinite;
+    animation: card 6s infinite;
     position: relative;
 }
 @keyframes card{
