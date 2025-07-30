@@ -1,0 +1,84 @@
+body{
+    transform: scale(0.6,0.9);
+    background-color: black;
+}.head{
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
+    background-color:blanchedalmond;
+    animation: card 4s infinite;
+    position: relative;
+}
+@keyframes card{
+    0% {
+        background-color: aqua;
+        box-shadow: 0 0 30px blue;
+         top: 0px; left: 0px;
+           opacity: 0;
+      transform: scale(0.2) translateY(0);
+        }
+    25% {
+        background-color: blue;
+        box-shadow: 0 0 30px red;
+        top: 0px; left: 100px;
+      opacity: 1;
+      transform: scale(1.2) translateY(-20px);}
+    50% {
+        background-color: brown;
+         box-shadow: 0 0 30px palevioletred;
+        top: 100px; left: 100px;
+     opacity: 1;
+      transform: scale(1) translateY(-40px);}
+    75% { 
+        background-color: chartreuse;
+         box-shadow: 0 0 30px yellowgreen;
+        top: 100px; right: 100px;
+     opacity: 0;
+      transform: scale(0.5) translateY(-60px);}
+    100% {
+        background-color: darkmagenta;
+        box-shadow: 0 0 30px gold;
+        top: 00px; left: 0px;
+    }
+}
+
+.container{
+display:flex;
+width: fit-content;
+height: fit-content;
+animation-name: card;
+
+}
+.card1, .card2,.card3,.card4,.card5{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100px;
+    height: fit-content;
+    margin-left: 5px;
+    background-color: beige;
+    box-shadow: 0 0 5px black;
+}
+img{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 10px;
+    color:blue;
+    margin-left: 20px;
+}
+p{
+    font-size: 10px;
+    margin-left: 10px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+    background-color: maroon;
+}
+#college{
+    margin-top: 100px;
+    animation-name: card;
+}
